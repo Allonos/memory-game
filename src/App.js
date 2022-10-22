@@ -30,8 +30,6 @@ function App() {
   const [secondChoice, setSecondChoice] = useState(null);
   const [disabled, setDisabled] = useState(false);
 
-  console.log('hi')
-
 
   const shuffleCards = () => {
     const shuffledCards = [...cardImages, ...cardImages]
